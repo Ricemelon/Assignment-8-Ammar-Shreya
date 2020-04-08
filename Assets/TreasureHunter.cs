@@ -39,7 +39,7 @@ public class TreasureHunter : MonoBehaviour
                 if(outHit.collider.gameObject.GetComponent("CollectibleTreasure")){
                     print("hit");
                     GameObject item = outHit.collider.gameObject;
-                    /*string objectname = outHit.collider.gameObject.GetComponent<CollectibleTreasure>().name;
+                    string objectname = outHit.collider.gameObject.GetComponent<CollectibleTreasure>().name;
                     bool exist = false;
                     for(int i=0;i<inventory.treasures.Count;i++){
                         if(inventory.treasures.ElementAt(i).name==objectname){
@@ -50,7 +50,7 @@ public class TreasureHunter : MonoBehaviour
                     if(exist==false){
                         inventory.treasures.Add(outHit.collider.gameObject.GetComponent<CollectibleTreasure>());
                         inventory.amount.Add(1);
-                    }*/
+                    }
                     /*if(objectname==1){
                         numberofEach[0]++;
                     } else if(objectvalue==5){
