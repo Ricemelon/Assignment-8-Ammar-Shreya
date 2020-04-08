@@ -82,7 +82,7 @@ public class TreasureHunter : MonoBehaviour
                         totalitems += inventory.amount[j];
 
                     }
-                    displayscore.text = totalitems+" items \n Spheres (5 ea):"+spheres+" \n Cubes (10 ea): "+cubes+"\n Capsules (20 ea): "+capsules+"\n Cylinders (1 ea): "+cylinders+"\n Total score: "+sum;
+                    displayscore.text = totalitems+" items \n Spheres (5 ea):"+spheres+" \n Cubes (10 ea): "+cubes+"\n Capsules (20 ea): "+capsules+"\n Cylinders (1 ea): "+cylinders+"\n Total score: "+sum+"\n Shreya Gullapalli and Ammar Puri";
                 }
             }
             print("You hit the collector button");
