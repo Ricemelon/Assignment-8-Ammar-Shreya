@@ -940,7 +940,7 @@ MonoBehaviour:
   BackAndSideDampen: 0.5
   JumpForce: 0.3
   RotationAmount: 1.5
-  RotationRatchet: 45
+  RotationRatchet: 20
   SnapRotation: 1
   FixedSpeedSteps: 0
   HmdResetsY: 1
@@ -7022,7 +7022,7 @@ AudioSource:
   Loop: 1
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 0
+  SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
